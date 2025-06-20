@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iOS Saeum 앱 설치</title>
+  <style>
+    body {
+      background-color: #f6f6f6;
+      font-family: 'Helvetica Neue', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 400px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+    .install-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #007aff;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .install-button:hover {
+      background-color: #0051c6;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>iOS Saeum 앱 설치</h1>
+    <p>아래 버튼을 클릭하여 앱을 설치하세요.</p>
+    <a class="install-button"
+       href="itms-services://?action=download-manifest&url=https://2ls2891.github.io/ios-enterprise-app-server/manifest.plist">
+      앱 설치
+    </a>
+  </div>
+</body>
+</html>
